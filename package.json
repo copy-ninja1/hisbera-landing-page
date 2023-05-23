@@ -1,9 +1,8 @@
 {
-  "name": "HTML-pro",
+  "name": "hisber",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "source": "./src/html/index.html",
+  "source": "./src/pages/index.html",
   "scripts": {
     "start": "parcel --open",
     "build": "parcel build",
