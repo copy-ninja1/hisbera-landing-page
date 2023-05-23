@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero__text {
+  color: white;
+  backdrop-filter: blur(10px);
+  background: rgb(255 255 255 / 5%);
+}
