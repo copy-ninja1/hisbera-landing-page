@@ -8,6 +8,7 @@ export const theme = {
       black: "#000",
       white: "#fff",
       footerbg: "#EBEBEB",
+      token: { bg: "#FBFBFB", border: "#D2D2D2" },
       circlebg: {
         10: "#ffffffb3",
         20: "#ffffff80",
