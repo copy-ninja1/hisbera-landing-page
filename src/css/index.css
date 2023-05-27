@@ -7,3 +7,43 @@
   backdrop-filter: blur(10px);
   background: rgb(255 255 255 / 5%);
 }
+
+.scroll-in {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.scrolled {
+  animation: fade-in 1s linear both;
+} 
+
+.scroll-in.scrolled {
+  opacity: 1;
+  transform: translateY(0);
+  animation: slide-in-bottom 1s ease-in-out both;
+}
+
+.scroll-in.js-opacity {
+  opacity: 0;
+}
+
+.card:hover,
+.card:focus-within {
+  cursor: pointer;
+  box-shadow: 0px 8px 24px rgba(179, 179, 179, 0.35);
+  background-color:#222;
+  transition: .2s ease-in;
+}
+
+.card:hover .card:focus-within {
+  opacity: 1;
+  filter: contrast(100%) grayscale(0);
+}
+
+.animated-svg {
+  animation: gradientAnimation 5s infinite;
+}
+
+.animatedLine path {
+  animation: faintColors 3s linear infinite;
+}
